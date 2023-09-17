@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" />
+  <script src="include.js"></script>
+    <title>Tarif</title>
+    <style>
+      #row1{
+     position: absolute;
+     top: 90em;  
+     left: 20%;  
+     margin-bottom: 10%;             
+ }
+ .container-reseaux{
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        max-width: 1100px;
+        height: 5%;
+        top:130em;
+        left: 40em;
+}  
+   </style>
+</head>
+<div w3-include-html="header.html"></div>
+
+<body>
+    <div class="card" id="card1" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Just moi</h5>
+          <h6 class="card-subtitle mb-2 text-muted">130 euros</h6>
+          <p class="card-text">Séance pour une personne, en extérieur ou en studio.</p>
+          <a href="#" class="card-link">Réserver</a>
+        </div>
+      </div>
+      <div class="card" id="card2"  style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">J’immortalise l’événement</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Sur mesure</h6>
+          <p class="card-text"> J’immortalise l’événement sur mesure Prestation de mariage ou baptême sur devis.</p>
+          <a href="#" class="card-link">Réserver</a>
+        </div>
+      </div>
+      <div class="card" id="card3" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Famille</h5>
+          <h6 class="card-subtitle mb-2 text-muted">220 euros</h6>
+          <p class="card-text">Pour la famille ou les amis jusqu’à 4 personnes, en extérieur ou en studio 30 euros en supplément par personne au-delà de 4 (hormis enfant jusqu’à 2 ans) .</p>
+          <a href="#" class="card-link">Réserver</a>
+        </div>
+      </div>
+      <div class="card" id="card4" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"> Pour deux </h5>
+          <h6 class="card-subtitle mb-2 text-muted">195 euros</h6>
+          <p class="card-text">Pour deux personnes, en extérieur ou en studio.</p>
+          <a href="#" class="card-link">Réserver</a>
+        </div>
+      </div>
+      <div class="card" id="card5"   style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Mon bébé</h5>
+          <h6 class="card-subtitle mb-2 text-muted">100 euros</h6>
+          <p class="card-text">Mon bébé » Photo d’enfant jusqu’à 3 ans (photo à domicile) </p>
+          <a href="#" class="card-link">Réserver</a>
+        </div>
+      </div>
+      <div class="card" id="card6" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title"> Il était une fois </h5>
+          <h6 class="card-subtitle mb-2 text-muted">160 euros</h6>
+          <p class="card-text">Photo de grossesse (À votre domicile, en extérieur ou en studio)</p>
+          <a href="#" class="card-link">Réserver</a>
+        </div>
+      </div>
+      
+      <div w3-include-html="form.html"></div>
+ 
+    <div w3-include-html="footer.html"></div>
+  <script>
+    includeHTML();
+  </script>
+    <script src="index.js"></script>
+
+</body>
+</html>
