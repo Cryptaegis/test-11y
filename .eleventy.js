@@ -11,7 +11,8 @@ module.exports = function(eleventyConfig){
     eleventyConfig.addPassthroughCopy('./src/contact.html');
     eleventyConfig.addPassthroughCopy('./src/index.js');
     eleventyConfig.addPassthroughCopy('./src/tarif.html');
-    eleventyConfig.addPassthroughCopy('./src/admin');
+    eleventyConfig.addPassthroughCopy('./src/admin/config.yml');
+    eleventyConfig.addPassthroughCopy('./src/admin/index.html');
 
     return{
         dir:{
