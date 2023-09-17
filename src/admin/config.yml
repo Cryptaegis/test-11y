@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main  # Branch to update (optional; defaults to master)
+  media_folder: "public/images"
+  public_folder: "/images"
+collections:
+name: 'photos'
+label: 'Photos'
+folder: 'src/store'
+create: true
+slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+fields:
+- label: "Featured Image"
+    name: "thumbnail"
+    widget: "image"
+    choose_url: true
+    default: "/images"
+    media_library:
+      config:
+        multiple: true
